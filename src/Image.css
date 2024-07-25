@@ -1,0 +1,19 @@
+/* Image.css */
+.image {
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.3s;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
